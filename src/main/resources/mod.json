@@ -1,0 +1,8 @@
+{
+  "id": "hytale_we",
+  "name": "Hytale WorldEdit",
+  "version": "1.0.0",
+  "author": "Gerold55",
+  "description": "Advanced world manipulation tools using a Stick as a wand.",
+  "entryPoint": "com.hytale.worldedit.WorldEditMain"
+}

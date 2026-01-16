@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Install Plugin",
+            "type": "shell",
+            "command": "./gradlew build && cp build/libs/HytaleWorldEdit.jar %appdata%/Hytale/UserData/Mods/",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"]
+        }
+    ]
+}
